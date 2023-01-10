@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.card {
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+img:hover,
+img:focus {
+  box-shadow: 0px 0px 5px black;
+}
+
+img:active {
+  box-shadow: 0px 0px 20px black;
+}
+
+.gameContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 400px;
+  margin: 0 auto;
+}
+
+.scores {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scores h2 {
+  margin: 1rem 2rem;
+}
